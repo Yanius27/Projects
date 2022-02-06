@@ -17,18 +17,12 @@ int main(void)
 
     //calling function number 1
     int letters = count_letters(text);
-    //output letters
-    printf("%i letters\n", letters);
 
     //calling function number 2
     int words = count_words(text);
-    //output words
-    printf("%i words\n", words);
 
     //calling function number 3
     int sentences = count_sentences(text);
-    //output sentences
-    printf("%i sentences\n", sentences);
 
     int arr[] = { letters, words, sentences };
 
